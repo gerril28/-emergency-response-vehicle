@@ -5,7 +5,12 @@ input.onButtonPressed(Button.B, function () {
     radio.sendNumber(2)
 })
 radio.setGroup(39)
-basic.showIcon(IconNames.Heart)
 basic.forever(function () {
-	
+    basic.showLeds(`
+        . . # . .
+        . . # . .
+        # # # # #
+        . . # . .
+        . . # . .
+        `)
 })
